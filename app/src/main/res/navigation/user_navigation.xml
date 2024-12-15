@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/user_navigation"
+    app:startDestination="@id/examineeFragment">
+
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.example.rmmconlineexam.fragment.SettingFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" />
+    <fragment
+        android:id="@+id/courseFragment"
+        android:name="com.example.rmmconlineexam.fragment.CourseFragment"
+        android:label="fragment_course"
+        tools:layout="@layout/fragment_course" />
+    <fragment
+        android:id="@+id/examineeFragment"
+        android:name="com.example.rmmconlineexam.fragment.ExamineeFragment"
+        android:label="fragment_examinee"
+        tools:layout="@layout/fragment_examinee" />
+    <fragment
+        android:id="@+id/examFragment"
+        android:name="com.example.rmmconlineexam.fragment.ExamFragment"
+        android:label="fragment_exam"
+        tools:layout="@layout/fragment_exam" />
+</navigation>

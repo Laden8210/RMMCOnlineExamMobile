@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F4F4F4"
+    tools:context=".fragment.SettingFragment">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Setting"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#607D8B"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"/>
+
+
+    <!-- Admin Name Display -->
+    <TextView
+        android:id="@+id/admin_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="John Doe"
+    android:textSize="20sp"
+    android:textColor="#333"
+    android:layout_marginBottom="16dp"
+    android:layout_gravity="center"/>
+
+    <!-- Admin Email -->
+    <TextView
+        android:id="@+id/admin_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="johndoe@admin.com"
+    android:textSize="16sp"
+    android:textColor="#555"
+    android:layout_marginBottom="32dp"
+    android:layout_gravity="center"/>
+
+    <Button
+    android:id="@+id/edit_information_button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Edit Information"
+    android:textColor="#FFF"
+    android:backgroundTint="#4CAF50"
+    android:layout_marginBottom="16dp" />
+
+
+    <Button
+        android:id="@+id/edit_password_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Password"
+        android:textColor="#FFF"
+        android:backgroundTint="#3F51B5"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Logout Button -->
+    <Button
+        android:id="@+id/logout_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:textColor="#FFF"
+        android:backgroundTint="#F44336" />
+
+</LinearLayout>
