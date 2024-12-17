@@ -75,7 +75,7 @@ public class ExamActivity extends AppCompatActivity implements PostCallback, Sto
 
     private int homePressCount = 0;
     private boolean isInBackground = false;
-    private static final long MAX_BACKGROUND_TIME = 10 * 1000; // 10 seconds
+    private static final long MAX_BACKGROUND_TIME = 10 * 1000;
 
     private static final int MAX_HOME_PRESSES = 3;
     private Handler handler;

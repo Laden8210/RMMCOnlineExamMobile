@@ -99,6 +99,7 @@ public class CreateQuestionActivity extends AppCompatActivity implements EditCho
                     choices.clear();
                     choices.add("True");
                     choices.add("False");
+                    rgChoices.setVisibility(View.VISIBLE);
                     addChoicesAdapter.addChoices(choices);
                 }else {
                     rgChoices.setVisibility(View.GONE);
